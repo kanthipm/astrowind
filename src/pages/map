@@ -1,0 +1,16 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Find a Community Health Center Near You',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <section class="py-16 text-center">
+    <h1 class="text-4xl font-bold">Find a Community Health Center Near You</h1>
+    <p class="mt-4 text-lg">Search for nearby community health centers and access essential services.</p>
+  </section>
+</Layout>
