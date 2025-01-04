@@ -114,6 +114,10 @@ export const headerData = {
       text: 'Widgets',
       href: '#',
     },
+    {
+      text: 'Map',
+      href: getPermalink('/map'),
+    },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
